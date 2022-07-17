@@ -18,12 +18,12 @@ jobs:
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           output_action: commit
-          comitter_token: ${{ github.token }}
-          comitter_message: "chore: update metrics [skip ci]"
+          committer_token: ${{ github.token }}
+          committer_message: "chore: update metrics [skip ci]"
           optimize: css, xml
           config_timezone: Europe/London
           base: header, activity, repositories, metadata
-          base_indeth: yes
+          base_indepth: yes
           plugin_achievements: yes
           plugin_habits: yes
           plugin_calendar: yes
